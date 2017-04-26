@@ -8,6 +8,11 @@ const Post =  (props) => (
        <h1>{props.movie.Title}</h1>
        <p>{props.movie.Plot}</p>
        <img src={props.movie.Poster}/>
+       <style jsx>{`
+  p {
+    color: red;
+  }
+`}</style>
     </Layout>
 )
 
